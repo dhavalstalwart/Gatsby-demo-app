@@ -30,7 +30,7 @@ query {
 }
 `
 
-export const Head = () => <Seo title="My Blog Post List" />
+export const Head = () => <Seo title="My Blog Post List" description={"Blog List Description"}/>
 
 export default BlogPage
 
